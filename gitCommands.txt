@@ -37,4 +37,7 @@ Git commands ->
 	33. git log --since=2.days ( all the commits done in last 2 days ( weeks, months, years ) )
 	34. git log --pretty=format:%h -- $an ( formats displaying of log, has more options )
 	35. git commit --amend ( modify last commit )
-	36. 
+	36. git restore --staged filename.ext ( moves file from staged area to unstaged area )
+	37. git checkout -- filename.ext ( removes all modifications in file and makes it same as last commit )
+	38. git checkout -f ( removes all modifications in all files and makes them as last commit )
+	39. 
