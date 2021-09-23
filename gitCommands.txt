@@ -23,6 +23,18 @@ Git commands ->
 	20. git restore ( for above condition, this command will remove all modifications in file and restore it back to staged file )
 	21. git diff --staged ( difference between staging area and last commit )
 	22. git commit -a -m "commit_msg" ( This commands takes all "tracked" files into staging area and then commits them. Note - This commands cant commit untracked files (which are not previously added to staging area))
-	23. git rm filename.ext ( removes file from repository )
-	24. git mv firstName.ext secondName.ext ( rename a file from first name to second )
-	25. 
+	23. git rm filename.ext ( removes file from repository and adds this change to staging area )
+	24. git mv firstName.ext secondName.ext ( rename a file from first name to second and adds this change to staging area )
+	25. git rm --cached filename.ext ( stops tracking the changes in the file with given name )
+		adding filename in gitignore file doesnt stops tracking changes of that file. to do that, run this above commands
+	26. gitignore is used to ignore untracked files while, above command is used to stop tracking previously tracked files
+	27. git log -p ( shows differences made by all commits by all people in project )
+	28. git log -p -n ( n is any integer no. , shows last n commits and differences made by them )
+	29. git log --stat ( shows changes made by all commits in short or few details )
+	30. git log --pretty=oneline ( each commit info in one line each )
+	31. git log --pretty=short ( each commit info in short )
+	32. git log --pretty=full ( each commit with some more info than short command )
+	33. git log --since=2.days ( all the commits done in last 2 days ( weeks, months, years ) )
+	34. git log --pretty=format:%h -- $an ( formats displaying of log, has more options )
+	35. git commit --amend ( modify last commit )
+	36. 
