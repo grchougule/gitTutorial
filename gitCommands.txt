@@ -21,4 +21,8 @@ Git commands ->
 		then,
 		git diff ( will show the difference between staged file and modified file )
 	20. git restore ( for above condition, this command will remove all modifications in file and restore it back to staged file )
-	
+	21. git diff --staged ( difference between staging area and last commit )
+	22. git commit -a -m "commit_msg" ( This commands takes all "tracked" files into staging area and then commits them. Note - This commands cant commit untracked files (which are not previously added to staging area))
+	23. git rm filename.ext ( removes file from repository )
+	24. git mv firstName.ext secondName.ext ( rename a file from first name to second )
+	25. 
