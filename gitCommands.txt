@@ -16,4 +16,5 @@ Git commands ->
 	15. git clone github_project_website_address localNameForThatProject ( clones the remote git project locally, So, we can make changes locally and finally submit them remotely ( merge ) )
 	16. touch filename.ext ( creates a file with given name and ext )
 	17. touch .gitignore ( special file created to ignore specific files during git staging and commiting )
-	18. 
+	18. blank folders are automatically ignored by git. It wont consider them for staging and commiting
+	19. 
