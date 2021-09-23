@@ -7,4 +7,9 @@ Git commands ->
 	6. git config --global user.email "A@gmail.com"  ( sets the name of user to A@gmail.com )
 	7. git config user.name ( gives name of user )
 	8. git config --list ( lists all info about current configuration )
-	9. 
+	9. git init ( marks the pwd as the git repository )
+	10. git add --a ( adds all the files with untracked / new changes to staging area )
+	11. git commit -m "commit message" ( commits all the changes in staging area wih optional msg ) 
+	12. git log ( to identify all the commits done by user )
+	13. git add filename.ext ( adds specific file to the staging area, useful when we dont want to add all modified files to staging area )
+	14. 
