@@ -17,4 +17,8 @@ Git commands ->
 	16. touch filename.ext ( creates a file with given name and ext )
 	17. touch .gitignore ( special file created to ignore specific files during git staging and commiting )
 	18. blank folders are automatically ignored by git. It wont consider them for staging and commiting
-	19. 
+	19. if we add a file to staging area and then modify it, then after running git status, that file will be shown as ready to commit as well as in modified files section
+		then,
+		git diff ( will show the difference between staged file and modified file )
+	20. git restore ( for above condition, this command will remove all modifications in file and restore it back to staged file )
+	
