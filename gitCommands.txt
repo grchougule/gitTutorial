@@ -1,0 +1,10 @@
+Git commands ->
+	1. git ( lists common commands which ensures successful installation of git )
+	2. pwd ( present working directory - linux command )
+	3. cd ( change directory )
+	4. git status ( tells whether pwd ( or any of its parent directory ) is git repository or not ) 
+	5. git config --global user.name "ABC"  ( sets the name of user to ABC -> necessary to identify who pushed the changes )
+	6. git config --global user.email "A@gmail.com"  ( sets the name of user to A@gmail.com )
+	7. git config user.name ( gives name of user )
+	8. git config --list ( lists all info about current configuration )
+	9. 

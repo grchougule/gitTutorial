@@ -1,0 +1,13 @@
+Git ->  version control system
+		tracks changes made during project lifecycle
+history -> 
+		1. local version control system
+		2. centralized version control system
+		3. distributed version control system ( git is a dscs )
+Git features ->
+		1. takes snapshot, not differences
+		2. almost every operation is local
+		3. follows integrity
+		4. generally adds data 
+Git Bash ->
+		1. terminal for git
