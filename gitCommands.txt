@@ -40,4 +40,10 @@ Git commands ->
 	36. git restore --staged filename.ext ( moves file from staged area to unstaged area )
 	37. git checkout -- filename.ext ( removes all modifications in file and makes it same as last commit )
 	38. git checkout -f ( removes all modifications in all files and makes them as last commit )
-	39. 
+	39. git remote ( gives the name of remote repository on which we are working )
+	40. git remote -v ( gives the names of repository on which you are doing push and pulling from )
+	41. git remote add origin https://github.com/grchougule/gitTutorial.git ( adds a new remote repository on given website with given name )
+	42. git push -u origin master ( pushes current master branch on local machine to remote repository named origin )
+	43. if opening github for first time, you might need to add ssh keys to establish trust. To know steps/ commands to create ssh keys, google it
+	44. 
+	
