@@ -45,5 +45,13 @@ Git commands ->
 	41. git remote add origin https://github.com/grchougule/gitTutorial.git ( adds a new remote repository on given website with given name )
 	42. git push -u origin master ( pushes current master branch on local machine to remote repository named origin )
 	43. if opening github for first time, you might need to add ssh keys to establish trust. To know steps/ commands to create ssh keys, google it
-	44. 
+	44. git config --global alias.st status ( this creates alias for 'status' as 'st' )
+	45. git checkout -b branchName ( creates and takes you to the new branch )
+	46. git branch ( shows all branches that you have created )
+	47. git branch otherBranchName ( merges the branch with master branch )
+	48. git branch -v ( all branches names with their last commit info )
+	49. git branch --merged ( all branches that are already merged )
+	50. git branch --no-merged ( all branches that are not yet merged )
+	51. git branch -d branchName ( deletes a branch if its already merged, gives error if not merged )
+	52. git branch -D branchName ( deletes branch even if its not merged )
 	
